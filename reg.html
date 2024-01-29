@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registration form</title>
-    <link rel="stylesheet" href="style.css">
+
+
+    
 </head>
 <body>
     <div>
@@ -26,10 +28,12 @@
         <input type="text" name="mothername" id="mothername" placeholder="your mothername">
         <br>
         <br>
+        
         <labeL>Gender:</labeL>
         <br> 
-        <input type="radio" name="male" id="male">male
-        <input type="radio" name="female" id="female">female
+        <input type="radio" name="Gender" id="male">male
+        <input type="radio" name="Gender" id="female">female
+    
         <BR>
             <BR>
                 <label>Date of Birth:*</label>
@@ -77,8 +81,8 @@
         </select>
         <BR>
             <br>
-        <label>Phone:</label>
-        <input type="text" name="phone" id="phone">
+        <label>Phone:*</label>
+        <input type="text" name="phone" id="phone" required>
         <BR>
             <BR>
 
@@ -86,22 +90,22 @@
                 
         <label>Interest:</label>
         <br>
-        <input type="radio" name="Coding" id="">coding
-        <input type="radio" name="music" id="">Music
-        <input type="radio" name="Sports" id="">Sports
-        <input type="radio" name="Dance" id="">Dance
+        <input type="radio" name="Interest" id=" coding">coding
+        <input type="radio" name="Interest" id="Music">Music
+        <input type="radio" name="Interest" id="Sports">Sports
+        <input type="radio" name="Interest" id="Dance">Dance
         <br>
         <br>
         <label>Password:*</label>
-        <input type="text" name="" id="" placeholder="Enter Password" required>
+        <input type="text" name="password" id="" placeholder="Enter Password" required>
         <br>
         <br>
         <label>Repeat Password:*</label>
-        <input type="text" name="" id="" placeholder="repeat password" required>
+        <input type="text" name="Repeat password" id="" placeholder="repeat password" required>
         <br>
         <br>
         <label>Submit:</label>
-        <input type="button" name="submit" id="" placeholder="Submit">
+        <input type="submit" name="submit" id=" " placeholder="Submit">
 
 
     </form>
